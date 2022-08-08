@@ -1,0 +1,79 @@
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 10px;
+  font-weight: 750;
+}
+
+h1 {
+  font-size: 60px;
+  color: orangered;
+}
+h2 {
+  font-size: 50px;
+  color: orangered;
+}
+img {
+  display: inline;
+  width: 100px;
+}
+.container1 {
+  border: 3px solid rgb(69, 69, 250);
+  border-radius: 30px;
+  box-shadow: 3px 3px 3px blue;
+  padding: 10px;
+  margin: 10px 20px 10px 20px;
+}
+.container2 {
+  border: 1px solid rgb(69, 69, 250);
+  border-radius: 30px;
+  box-shadow: 2px 2px 2px blue;
+  padding: 10px;
+  margin: 10px 20px 10px 20px;
+}
+.textCenter {
+  text-align: center;
+  font-size: 55px;
+  font-weight: bold;
+  margin: 20px;
+}
+.enterCity,
+.nextDays,
+.popularCities {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  font-weight: bold;
+}
+.cities {
+  color: blueviolet;
+}
+.cities:hover {
+  text-decoration: underline;
+  color: red;
+  font-size: larger;
+}
+.findButton {
+  margin: 10px;
+  background-color: green;
+  color: white;
+  border: 3px solid green;
+  border-radius: 10px;
+}
+.findButton:hover {
+  color: green;
+  background-color: white;
+  border: 3px solid green;
+  cursor: pointer;
+}
+.img2 {
+  display: inline;
+  width: 40px;
+}
+.footer {
+  text-align: center;
+  font-size: 10px;
+  position: fixed;
+  bottom: 10px;
+}

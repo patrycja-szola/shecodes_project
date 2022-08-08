@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="source/style.css" />
+    <title>SheCodes - Weather App Project</title>
+  </head>
+  <body>
+    <br />
+    <div class="row">
+      <div class="col-12">
+        <h1>
+          <img
+            src="http://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/cloud-with-rain.png"
+          />
+          Is the weather OK?
+          <img
+            src="http://d2trtkcohkrm90.cloudfront.net/images/emoji/apple/ios-12/128/smiling-face-with-open-mouth-and-cold-sweat.png"
+          />
+          <br />
+        </h1>
+        <h2>Let's find out!</h2>
+        <h3></h3>
+      </div>
+    </div>
+    <br /><br />
+    <div class="row container1">
+      <div class="col">
+        <span class="col enterCity">
+          <input type="text" id="selected-city" placeholder="enter the city" />
+
+          <button type="button" id="findButton" class="findButton">Find</button>
+          <button type="button" id="currentLocationButton" class="findButton">
+            Current Location
+          </button></span
+        >
+      </div>
+      <div class="row popularCities"><br />Some popular cities:<br /></div>
+      <div class="row">
+        <div class="col cities">New York</div>
+        <div class="col cities">Chicago</div>
+        <div class="col cities">Sydney</div>
+        <div class="col cities">Melbourn</div>
+        <div class="col cities">Tokyo</div>
+        <div class="col cities">Beijing</div>
+        <div class="col cities">London</div>
+        <div class="col cities">Paris</div>
+        <div class="col cities">Madrit</div>
+        <div class="col cities">Berlin</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col"></div>
+
+      <div class="col textCenter" id="choosen-city">Paris</div>
+      <div class="col textCenter">
+        <strong id="temperature">17</strong
+        ><a href="#" id="celciusTemp">°C</a>/<a href="#" id="fahrTemp">°F</a>
+      </div>
+      <div class="col textCenter">
+        <img
+          src="http://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/cloud-with-rain.png"
+        />
+      </div>
+      <div class="col"></div>
+    </div>
+    <div class="row container2">
+      <div class="col">
+        <div class="row nextDays">And how about next few days...?</div>
+        <div class="row">
+          <br />
+        </div>
+        <div class="row">
+          <div class="col">
+            <strong>17°C</strong>
+            <img
+              src="http://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/cloud-with-rain.png"
+              class="img2"
+            />
+          </div>
+          <div class="col">
+            <strong>17°C</strong>
+            <img
+              src="http://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/cloud-with-rain.png"
+              class="img2"
+            />
+          </div>
+          <div class="col">
+            <strong>17°C</strong>
+            <img
+              src="http://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/cloud-with-rain.png"
+              class="img2"
+            />
+          </div>
+          <div class="col">
+            <strong>17°C</strong>
+            <img
+              src="http://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/cloud-with-rain.png"
+              class="img2"
+            />
+          </div>
+          <div class="col">
+            <strong>17°C</strong>
+            <img
+              src="http://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/cloud-with-rain.png"
+              class="img2"
+            />
+          </div>
+          <div class="col">
+            <strong>17°C</strong>
+            <img
+              src="http://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/cloud-with-rain.png"
+              class="img2"
+            />
+          </div>
+          <div class="col">
+            <strong>17°C</strong>
+            <img
+              src="http://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/cloud-with-rain.png"
+              class="img2"
+            />
+          </div>
+        </div>
+        <br />
+      </div>
+    </div>
+    <footer class="footer">Coded by <strong>Pati_</strong></footer>
+    <script src="source/app.js"></script>
+  </body>
+</html>
