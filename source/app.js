@@ -11,7 +11,13 @@ let days = [
 ];
 let weekday = days[currentTime.getDay()];
 let hours = currentTime.getHours();
+if (hours < 10) {
+  hours = `0${hours}`;
+}
 let minutes = currentTime.getMinutes();
+if (minutes < 10) {
+  minutes = `0${minutes}`;
+}
 heading.innerHTML = `${weekday}, ${hours}:${minutes}`;
 
 // Geolocation & Weather API
